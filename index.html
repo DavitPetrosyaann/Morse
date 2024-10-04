@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse in JS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Translate to Morse</h1>
+        <form>
+          <input type="text" placeholder="Enter text" id="input" />
+          <button type="submit" id="button">Translate</button>
+          <input type="text" placeholder="Morse code" id="output" />
+          <button class="copy_button" data-id="copyMorse">Copy</button>
+        </form>
+      </div>
+    </section>
+
+    <article>
+      <div class="container" style="margin-top: 50px">
+        <h1>Translate from Morse to text</h1>
+        <h2>For using space between the words you should press space key 5 times</h2>
+        <h2>Between the words use only one space key</h2>
+        <form action="">
+          <input type="text" placeholder="Enter morse code" data-id="1" />
+          <button type="submit" data-id="2">Translate</button>
+          <input type="text" placeholder="Text" data-id="3" />
+          <!-- <button class="copy_button" data-id="copyText">Copy</button> -->
+        </form>
+      </div>
+    </article>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
